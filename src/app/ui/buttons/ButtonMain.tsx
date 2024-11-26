@@ -3,7 +3,7 @@ import React from 'react';
 import { Button, Text } from '@chakra-ui/react';
 
 type Props = {
-  text: String;
+  text: string;
 };
 
 const ButtonMain = (props: Props) => {

@@ -4,9 +4,7 @@ import Image from 'next/image';
 import React from 'react';
 import ButtonMain from '../buttons/ButtonMain';
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <Container pt="5" maxW="6xl">
       <Flex direction={['column-reverse', 'row']} align="center" gap={4}>

@@ -1,6 +1,6 @@
 'use client';
 import React from 'react';
-import { Container, Flex, Box, Button, Text } from '@chakra-ui/react';
+import { Container, Flex, Box } from '@chakra-ui/react';
 import Image from 'next/image';
 import ButtonMain from '../buttons/ButtonMain';
 
