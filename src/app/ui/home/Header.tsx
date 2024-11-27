@@ -1,17 +1,26 @@
 'use client';
-import { Box, Container, Flex, Heading, Text } from '@chakra-ui/react';
+import { Box, Flex, Heading, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import React from 'react';
 import ButtonMain from '../buttons/ButtonMain';
+import Frame from '../Frame';
 
 const Header = () => {
   return (
-    <Container pt="5" maxW="6xl">
-      <Flex direction={['column-reverse', 'row']} align="center" gap={4}>
+    <Frame>
+      <Flex
+        direction={[
+          'column-reverse',
+          'column-reverse',
+          'column-reverse',
+          'row',
+        ]}
+        align="center"
+        gap={4}
+      >
         <Flex direction="column" gap={8} flex="50%">
           <Heading
             as="h1"
-            color="#4C533A"
             fontSize="5xl"
             fontFamily="ITCSouvenir"
             lineHeight="1"
@@ -35,7 +44,7 @@ const Header = () => {
           <Image src="/hero.svg" alt="hero" width={555} height={448} />
         </Box>
       </Flex>
-    </Container>
+    </Frame>
   );
 };
 
