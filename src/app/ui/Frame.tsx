@@ -1,8 +1,8 @@
 import { Container } from '@chakra-ui/react';
-import React, { ReactElement } from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
 type Props = {
-  children: ReactElement;
+  children: ReactNode;
 };
 
 const Frame = (props: Props) => {

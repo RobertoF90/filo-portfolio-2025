@@ -2,8 +2,7 @@
 import React from 'react';
 import { Container, Flex, Box } from '@chakra-ui/react';
 import Image from 'next/image';
-import ButtonMain from '../buttons/ButtonMain';
-
+import ButtonMain from './buttons/ButtonMain';
 const Nav = () => {
   return (
     <Container>
