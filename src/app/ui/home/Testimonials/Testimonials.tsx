@@ -4,9 +4,7 @@ import { Box, Flex, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import { Avatar } from '@/components/ui/avatar';
 
-type Props = {};
-
-const Testimonials = (props: Props) => {
+const Testimonials = () => {
   return (
     <Frame>
       <Flex

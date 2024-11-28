@@ -1,5 +1,5 @@
 import React from 'react';
-import { Icon, Flex, Box } from '@chakra-ui/react';
+import { Icon, Flex } from '@chakra-ui/react';
 import Image from 'next/image';
 import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 

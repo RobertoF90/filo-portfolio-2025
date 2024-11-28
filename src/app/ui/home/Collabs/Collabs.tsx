@@ -4,9 +4,7 @@ import { Flex, Text } from '@chakra-ui/react';
 import HeadingMain from '../../HeadingMain';
 import Image from 'next/image';
 
-type Props = {};
-
-const Collabs = (props: Props) => {
+const Collabs = () => {
   return (
     <Frame>
       <Flex direction="column" align="center">
