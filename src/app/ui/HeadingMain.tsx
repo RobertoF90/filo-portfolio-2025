@@ -10,7 +10,7 @@ const HeadingMain = (props: Props) => {
     <Heading
       fontSize="4xl"
       fontFamily="ITCSouvenir"
-      textAlign="center"
+      textAlign={['center', 'unset']}
       lineHeight={1.05}
     >
       {props.text}
