@@ -17,10 +17,11 @@ const CardItem = (props: Props) => {
       h={['275px', '275px', '235px', '235px', '235px']}
       p={2}
     >
+      <Card.Header>
+        <Image src={props.image} alt="map icon" />
+      </Card.Header>
       <Card.Body>
-        <Image src={props.image} width={61} height={55} alt="map icon" />
         <Card.Title
-          mt="4"
           mb="2"
           color="#4C533A"
           fontSize="2xl"

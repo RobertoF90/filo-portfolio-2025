@@ -9,9 +9,9 @@ const Contacts = () => {
   return (
     <Frame>
       <Flex direction="column" align="center">
-        <Image src="/mountains.svg" width="478" height="120" alt="steps" />
+        <Image src="/mountains.svg" width="438" height="139" alt="steps" />
 
-        <Flex direction="column" align="center" gap={12} pt="12" px={24}>
+        <Flex direction="column" align="center" gap={12} pt="12" px={[4, 24]}>
           <HeadingMain text="Pronto a iniziare il tuo percorso digitale?" />
 
           <Text>

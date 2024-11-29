@@ -16,7 +16,7 @@ const Collabs = () => {
 
         <Text pb={4}>Ecco come posso aiutarti:</Text>
 
-        <Flex>
+        <Flex direction={['column', 'row']}>
           <Image
             src="/logo-eduvita.svg"
             width="191"

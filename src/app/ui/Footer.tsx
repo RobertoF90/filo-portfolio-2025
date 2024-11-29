@@ -6,7 +6,14 @@ import { FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <footer>
-      <Flex p={8} bg="#4C533A" justify="space-between" align="center">
+      <Flex
+        p={8}
+        bg="#4C533A"
+        justify="space-between"
+        align="center"
+        gap={[6, 0]}
+        direction={['column', 'row']}
+      >
         <Image src="/logo-footer.svg" alt="logo" width={195} height={74} />
 
         <Flex gap={8} color="#F8EFDA">

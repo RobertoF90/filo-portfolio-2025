@@ -13,8 +13,8 @@ const Testimonials = () => {
         color="#F8EFDA"
         bg="#4C533A"
         borderRadius="2xl"
-        py={12}
-        px={24}
+        py={[6, 12]}
+        px={[4, 24]}
         gap={6}
       >
         <Box position="absolute" left={0}>
@@ -24,7 +24,7 @@ const Testimonials = () => {
           Le storie di chi ha scelto di lavorare con me
         </Box>
 
-        <Text>
+        <Text textAlign="justify">
           Sto lavorando con Filomena da circa 2 mesi per cambiare
           l&apos;approccio della mia pagina instagram ILOVECRETE e insieme
           abbiamo raggiunto ottimi risultati. Grazie a lei abbiamo iniziato a

@@ -9,7 +9,7 @@ const About = () => {
   return (
     <Frame>
       <Flex direction="column" align="center">
-        <Image src="/mountains.svg" width="478" height="120" alt="steps" />
+        <Image src="/mountains.svg" width="438" height="139" alt="steps" />
 
         <Flex
           direction={['column', 'column', 'column', 'row']}
