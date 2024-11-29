@@ -14,12 +14,12 @@ const Contacts = () => {
         <Flex direction="column" align="center" gap={12} pt="12" px={[4, 24]}>
           <HeadingMain text="Pronto a iniziare il tuo percorso digitale?" />
 
-          <Text>
+          <Text textAlign="justify">
             Sono qui per aiutarti a raggiungere i tuoi obiettivi con un
             approccio personalizzato, professionale e orientato ai risultati.
           </Text>
 
-          <Text>
+          <Text textAlign="justify">
             Che si tratti di consulenze, gestione dei social o sviluppo di una
             strategia su misura, sono pronta ad accompagnarti passo dopo passo.
           </Text>

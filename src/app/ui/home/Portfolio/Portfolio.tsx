@@ -22,7 +22,7 @@ const Portfolio = () => {
           <Flex flex="50%" direction="column" gap={6}>
             <HeadingMain text="Portfolio Copywriting & Content Writing" />
 
-            <Text>
+            <Text textAlign="justify">
               Ecco alcuni esempi dei miei ultimi testi per siti web e social
               media di piccole attività, organizzazioni e progetti che hanno
               scelto i miei servizi.

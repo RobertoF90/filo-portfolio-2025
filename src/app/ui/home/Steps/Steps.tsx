@@ -22,7 +22,7 @@ const items = [
 const Steps = () => {
   return (
     <Frame>
-      <Flex direction="column" align="center">
+      <Flex direction="column" align="center" textAlign={'justify'}>
         <Image src="/steps.svg" width="478" height="120" alt="steps" />
 
         <Flex

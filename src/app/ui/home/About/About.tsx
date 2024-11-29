@@ -17,7 +17,7 @@ const About = () => {
           gap={12}
           pt="12"
         >
-          <Flex flex="50%" direction="column" gap={6}>
+          <Flex flex="50%" direction="column" gap={6} textAlign="justify">
             <HeadingMain text="Semplificare il digitale, valorizzare il tuo business" />
 
             <Text>

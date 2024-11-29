@@ -28,11 +28,11 @@ const Header = () => {
           >
             La tua guida digitale attraverso sentieri inesplorati
           </Heading>
-          <Text fontSize={21}>
+          <Text textAlign="justify">
             Insieme possiamo trasformare la tua presenza online.
           </Text>
 
-          <Text fontSize={21}>
+          <Text textAlign="justify">
             Con il mio supporto, esplorerai nuove strade per far crescere la tua
             attività nel mondo digitale.
           </Text>

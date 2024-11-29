@@ -7,10 +7,10 @@ import Image from 'next/image';
 const Collabs = () => {
   return (
     <Frame>
-      <Flex direction="column" align="center">
+      <Flex direction="column" align="center" textAlign="justify">
         <HeadingMain text="Ho scritto e creato per" />
 
-        <Text pt={4}>
+        <Text py={4}>
           Ogni attività è unica, e lo è anche il mio approccio.
         </Text>
 

@@ -29,7 +29,9 @@ const CardItem = (props: Props) => {
         >
           {props.title}
         </Card.Title>
-        <Card.Description color="#4C533A">{props.text}</Card.Description>
+        <Card.Description color="#4C533A" textAlign="justify">
+          {props.text}
+        </Card.Description>
       </Card.Body>
     </Card.Root>
   );
